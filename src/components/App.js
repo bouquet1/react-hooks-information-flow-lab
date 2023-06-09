@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className={style}>
-      <Header className={style} onClickButton={DarkModeClick} isDarkMode={isDarkMode} />
+      <Header className={style} onDarkModeClick={DarkModeClick} isDarkMode={isDarkMode} />
       <ShoppingList className={style} items={itemData} />
     </div>
   );
